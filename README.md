@@ -8,6 +8,9 @@ Run the following command in cmd or a terminal in the directory where ``GmusicRe
 - <...>`` means required.
 - [...]`` means optional, though to include max output you need to specifiy a year!
 
+If the year is not provided, it will default to the current year.
+If max output is not provided, it wil ldefault to 10
+
 **NOTE: The path NEEDS to be in double quotes!**
 
 ## Getting your statistics
