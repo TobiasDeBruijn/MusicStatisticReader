@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+    id 'com.github.johnrengelman.shadow' version '6.0.0'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'org.json:json:20200518'
+}
+
+shadowJar {
+	relocate 'org.json', 'nl.thedutchmc.libs'
+}
+
+application {
+	mainClassName = 'nl.thedutchmc.gmusicreader.GoogleMusic'
+}
