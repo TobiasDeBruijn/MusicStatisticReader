@@ -1,6 +1,8 @@
 # GmusicReader
 Get your Google Music statistics
 
+Precompiled JARs can be found under [Releases](https://github.com/TheDutchMC/GmusicReader/releases) 
+
 ## Usage
 Run the following command in cmd or a terminal in the directory where ``GmusicReader.jar`` is located:  
 ``java -jar GmusicReader.jar <path to My Activity.json> [year] [max output]``
@@ -25,3 +27,17 @@ If max output is not provided, it wil ldefault to 10
 9. Press "Create Export"
 10. You will receive an email from Google shortly with a download link. This will be a ZIP file.
 11. In this ZIP file you need to navigate to ``Takeout/My Activity/Google Play Music/``. You need to copy out ``My Activity.json``.
+
+## Compiling from source
+For Windows:
+```
+gradlew shadowJar
+```
+
+For Linux:
+```
+chmod +x gradlew
+./gradlew shadowJar
+```
+
+For both distributions to JAR can be found at ``build/libs/GmusicReader-all.jar``
