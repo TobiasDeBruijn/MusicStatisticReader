@@ -29,8 +29,9 @@ public class GoogleMusic {
     	System.out.println("GmusicReader by TheDutchMC/Dutchy76\n");
     	
     	if(args.length == 0) {
-    		System.err.println("No file path provided!");
+    		System.err.println("No file path provided! Exiting");
     		System.out.println("Usage: java (arguments) - jar GmusicReader.jar <file path> [year] [max output]");
+    		System.exit(1);
     	}
     	
     	String year;
