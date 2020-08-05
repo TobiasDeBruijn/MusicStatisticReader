@@ -1,0 +1,22 @@
+
+plugins {
+    id 'java'
+    id 'application'
+	id 'com.github.johnrengelman.shadow' version '6.0.0'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.json:json:20200518'
+}
+
+shadowJar {
+	relocate 'org.json', 'nl.thedutchmc.libs'
+}
+
+application {
+	mainClassName = 'nl.thedutchmc.ytmusicreader.YoutubeMusic'
+}
