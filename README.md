@@ -9,4 +9,5 @@ MusicStatisticReader is a program to get you your listening stats for Google Mus
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/TheDutchMC/MusicStatisticReader/master/icons/gm.svg" /> Google Music](https://github.com/TheDutchMC/MusicStatisticReader/tree/gmusic)
 
 ## Important
-If you use WSL, your math is ``/mnt/<disk letter>/`` and NOT ``<disk letter>:/`` !
+If you use WSL, your path is ``/mnt/<disk letter>/`` and NOT ``<disk letter>:\`` !
+E.g ``C:\`` should be ``/mnt/c/``
