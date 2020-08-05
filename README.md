@@ -1,5 +1,5 @@
 # MusicStatisticReader
-By TheDutchMC
+By TheDutchMC, Jmilthedude
 
 MusicStatisticReader is a program to get you your listening stats for Google Music and YouTube music.
 
