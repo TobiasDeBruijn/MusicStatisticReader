@@ -1,5 +1,5 @@
-# GmusicReader
-Get your Google Music statistics
+# MusicStatisticReader: Google Play Music
+Get your Google Music listening statistics
 
 Precompiled JARs can be found under [Releases](https://github.com/TheDutchMC/GmusicReader/releases) 
 
