@@ -1,0 +1,12 @@
+# Gradle
+build/
+.gradle/
+
+# Eclipse
+.settings/
+bin/
+.classpath
+.project
+
+# Testing
+watch-history.json

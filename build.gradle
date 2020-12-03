@@ -3,6 +3,7 @@ plugins {
     id 'java'
     id 'application'
 	id 'com.github.johnrengelman.shadow' version '6.0.0'
+	id 'eclipse'
 }
 
 repositories {
@@ -10,11 +11,11 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.json:json:20200518'
+	compile 'org.json:json:20200518'
 }
 
 shadowJar {
-	relocate 'org.json', 'nl.thedutchmc.libs'
+	relocate 'org.json', 'nl.thedutchmc.libs.json'
 }
 
 application {
